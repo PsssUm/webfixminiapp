@@ -2,10 +2,13 @@
   "name": "vk-apps-get-money",
   "version": "1.0.0",
   "description": "",
+  "homepage": "https://PsssUm.github.io/vk-get-money/",
   "main": "index.js",
   "scripts": {
     "start": "cross-env PORT=10888 react-scripts start",
-    "build": "react-scripts build"
+    "build": "react-scripts build",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "keywords": [],
   "author": "",
@@ -21,6 +24,7 @@
     "@vkontakte/vk-connect": "^1.7.1",
     "@vkontakte/vkui": "^2.34.1",
     "babel-eslint": "^10.0.3",
+    "balanced-match": "^1.0.0",
     "chalk": "^2.4.2",
     "core-js": "^3.6.1",
     "prop-types": "^15.7.2",
