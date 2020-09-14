@@ -1,0 +1,39 @@
+.options_btn{
+    position: absolute;
+    bottom: 0;
+
+}
+.options_title{
+    margin: 14px 12px 8px 12px;
+}
+.options_title_picker{
+    font-size: 16px;
+    line-height: 20px;
+    color: #000000;
+    margin-top: 11px;
+}
+.options_date{
+    margin-bottom: 12px;
+}
+.date_bg{
+    z-index: 999;
+    width: 100%;
+    height: calc(100vh + 56px);
+    position: absolute;
+    left: 0;
+    top: -56px;
+    background: rgba(0,0,0,.4);
+}
+.DayPicker{
+    background: white;
+    border-top-left-radius: 14px;
+    border-top-right-radius: 14px;
+}
+.close_day_picker{
+    padding: 12px 24px;
+    line-height: 1.25;
+    font-size: 16px;
+    font-family: SF-Semibold;
+    color : #2787f5;
+    text-align: center;
+}

@@ -1,0 +1,124 @@
+textarea {
+    border: none;
+    background-color: transparent;
+    resize: none;
+    outline: none;
+}
+
+.photo_picker{
+    position: relative;
+    border: 1px dashed #3F8AE0;
+    border-radius: 10px;
+
+    width: 100%;
+    height: 140px;
+}
+.photo_text{
+    margin : 4px 0px 0px 8px;
+    font-size: 16px;
+    line-height: 20px;
+    color: #3F8AE0;
+    font-family: SF-Medium;
+}
+.photo_picker_container{
+    position: relative;
+    border-radius: 10px;
+    margin: 12px 12px 0px 12px;
+    width: calc(100% - 24px);
+    height: 140px;
+}
+.FormLayout--android .FormLayout__row .FormField, .FormLayout--android .FormLayout__row .Button, .FormLayout--android .FormLayout__row .FormStatus {
+    position: relative;
+    border-radius: 10px;
+    margin: 0px;
+    width: 100%;
+    height: 140px;
+    background: white;
+}
+.FormLayout--android .FormLayout__row .FormField, .FormLayout--android .FormLayout__row .Button, .FormLayout--android .FormLayout__row .FormStatus{
+    margin: 0px;
+    padding: 0px;
+}
+.Button--aln-left .Button__in{
+    position: relative;
+    border-radius: 10px;
+    margin: 0px;
+    width: 100%;
+    height: 140px;
+    background: white;
+}
+.Button--sz-m .Button__content{
+    position: relative;
+    border-radius: 10px;
+    margin: 0px;
+    width: 100%;
+    height: 140px;
+    background: white;
+}
+.FormLayout--android .FormLayout__row{
+    margin: 0px;
+    padding: 0px;
+}
+.picked_image{
+    width: 100%;
+    height: 140px;
+    border-radius: 10px;
+    object-fit: cover; /* Do not scale the image */
+    object-position: center; /* Center the image within the element */
+}
+.picked_img_container{
+    position: relative;
+}
+.dismiss_container{
+    position: absolute;
+    right: 0;
+    top: 0;
+    height: 48px;
+    width: 48px;
+}
+.dismiss_img{
+    margin-left: 12px;
+    margin-top: 12px;
+}
+.questions_container{
+    padding: 12px;
+}
+.question_title{
+    font-size: 14px;
+    line-height: 18px;
+    color: #6D7885;
+    margin-bottom: 8px;
+}
+.input_question{
+    resize: none;
+    background: #F2F3F5;
+    border: 0.5px solid rgba(0, 0, 0, 0.12);
+    box-sizing: border-box;
+    border-radius: 10px;
+    height: fit-content;
+    width: 100%;
+    padding: 12px;
+    font-size: 16px;
+    color: #000000;
+    line-height: 20px;
+    min-height: 44px;
+    overflow: hidden;
+}
+.input_question::placeholder{
+    color: #818C99;
+}
+.input_question:focus{
+    border: 0.5px solid rgba(0, 0, 0, 0.12);
+}
+.drop_arrow_question{
+    position: absolute;
+    right: 10px;
+    top: 10px;
+}
+.question_btn_next{
+    text-align: center;
+    margin: 12px;
+    width: calc(100% - 24px);
+    padding: 11px 0px;
+}
+
