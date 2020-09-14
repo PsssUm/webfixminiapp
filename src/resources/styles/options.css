@@ -36,4 +36,7 @@
     font-family: SF-Semibold;
     color : #2787f5;
     text-align: center;
+    background: white;
+    border-bottom-left-radius: 14px;
+    border-bottom-right-radius: 14px;
 }

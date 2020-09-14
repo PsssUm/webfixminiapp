@@ -115,14 +115,14 @@ class Details extends React.Component {
               <hr className="detail_hr"/>
               <div className="detail_coment_div">
                 <div style={{display: 'flex'}} className="detail_coment_div2">
-                    <img src={avatar1} width="36" /><div style={{display: 'block', margin: '0px 0px 0px 8px'}}><span className="detail_coments_name">Алексей Мазелюк</span><span className="detail_coments_time">5 мин</span> <p className="detail_coments_text">Отправил</p> </div>
+                    <img src={avatar1} width="36" height="36"/><div style={{display: 'block', margin: '0px 0px 0px 8px'}}><span className="detail_coments_name">Алексей Мазелюк</span><span className="detail_coments_time">5 мин</span> <p className="detail_coments_text">Отправил</p> </div>
                     <img src={ic_like} width="16"className="detail_comment_like" />
                 </div>
                 <div style={{display: 'flex'}} className="detail_coment_div2">
-                    <img src={avatar2} width="36" />
+                    <img src={avatar2} width="36" height="36" />
                 <div style={{display: 'flex'}} className="detail_coment_div3">
                     <span className="detail_coments_edit_text">Комментарий</span>
-                    <img src={ic_smile_outline} style={{marginRight : "4px"}} width="24"className="detail_comment_like" />
+                    <img src={ic_smile_outline} style={{marginRight : "4px", height : '24px', marginTop : '5px'}} width="24"className="detail_comment_like" />
                 </div>
                 </div>
               </div>

@@ -33,6 +33,28 @@
   textarea {
     resize: none;
   }
+  textarea {
+    border: none;
+    overflow: auto;
+    outline: none;
+
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
+    box-shadow: none;
+    -webkit-appearance: none;
+    resize: none; /*remove the resize handle on the bottom right*/
+}
+input {
+  border: none;
+  overflow: auto;
+  outline: none;
+
+  -webkit-box-shadow: none;
+  -moz-box-shadow: none;
+  box-shadow: none;
+  -webkit-appearance: none;
+  resize: none; /*remove the resize handle on the bottom right*/
+}
   p{
     outline: 0;
     outline: none;
@@ -95,6 +117,12 @@
   .PanelHeader--ios .PanelHeader__right{
     display: none;
   }
+  .PanelHeader-content, .PanelHeader__content{
+    overflow: initial;
+  }
+  .View--ios.View--header .Panel__in{
+    padding-top: 56px;
+  }
   .navbar{
     position: fixed;
     height: 56px;
@@ -102,6 +130,9 @@
     left: 0;
     right: 0;
     background: white;
+  }
+  .PanelHeader--android .PanelHeader-content>:not(.Search):not(.PanelHeaderContent){
+    padding: 0px
   }
   .navbar_title{
     font-size: 21px;
@@ -117,11 +148,11 @@
   .navbar_line{
     background: #D7D8D9;
     height: 1px;
-    margin-left: 6px;
-    margin-right: 6px;
+    margin-left: 12px;
+    margin-right: 12px;
     width: calc(100% - 24px);
     position: absolute;
-    bottom: 3px;
+    bottom: 1px;
   }
   .back_icon{
     position: absolute;
