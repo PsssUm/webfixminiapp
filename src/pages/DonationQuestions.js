@@ -44,7 +44,7 @@ class DonationQuestions extends React.Component {
         this.setState({image : image})
     }
     isReady = () => {
-        return (this.state.title != undefined && this.state.title != "" && this.state.summ != undefined && this.state.summ > 0 && this.state.description != undefined && this.state.description != "" && this.state.target != undefined && this.state.target != "")
+        return (this.state.image != undefined && this.state.image != "" && this.state.title != undefined && this.state.title != "" && this.state.summ != undefined && this.state.summ > 0 && this.state.description != undefined && this.state.description != "" && this.state.target != undefined && this.state.target != "")
     }
     next(){
         if (this.isReady()){
