@@ -4,7 +4,7 @@
 
 Ссылка на репозиторий мини аппа - https://github.com/PsssUm/pagesminiapp
 
-Ссылка на работающий мини апп - vk.com/app7595788
+Ссылка на работающий мини апп - https://vk.com/app7595788
 
 Ссылка на github pages с мини апп - https://psssum.github.io/pagesminiapp/
 
